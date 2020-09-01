@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.admin.qa.testcases.AddUserPageTest">
+        <methods>
+          <include name="verifyAddUserForm"/>
+          <include name="verifyAddUserPageLabel"/>
+          <include name="verifyAddUserPageFormLables"/>
+          <include name="verifyAddUserPageTitle"/>
+        </methods>
+      </class> <!-- com.admin.qa.testcases.AddUserPageTest -->
+      <class name="com.admin.qa.testcases.DashboardTest">
+        <methods>
+          <include name="checktitle"/>
+          <include name="verifyDashboardPageLabel"/>
+          <include name="verifyLoggedUser"/>
+          <include name="verifyUserLink"/>
+          <include name="checklogo"/>
+        </methods>
+      </class> <!-- com.admin.qa.testcases.DashboardTest -->
+      <class name="com.admin.qa.testcases.UserPageTest">
+        <methods>
+          <include name="verifyLoginPageBtn"/>
+          <include name="verifyadduser"/>
+          <include name="verifyUserLink"/>
+          <include name="verifyUserPageLabel"/>
+          <include name="verifyUserPageTitle"/>
+        </methods>
+      </class> <!-- com.admin.qa.testcases.UserPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
